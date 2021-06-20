@@ -11,7 +11,7 @@ async def start(c, m):
     owner_username = owner.username if owner.username else 'ZauteKm'
 
     # start text
-    text = f"""Hey! {m.from_user.mention(style='md')},
+    text = f"""Hai! {m.from_user.mention(style='md')},
 
 💡 ** I am Stylish Font Bot**
 
@@ -23,14 +23,13 @@ async def start(c, m):
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('👥 Group', url=f"https://t.me/iZaute/5"),
-            InlineKeyboardButton('Channel 📢', url=f"https://t.me/iZaute/6")
+            InlineKeyboardButton('📫 Updates', url=f"https://t.me/BX_Botz"),
+            InlineKeyboardButton('🤖 Support', url=f"https://t.me/BXSUPPORT")
             ],[
-            InlineKeyboardButton('❤️ Credit', url=f"https://t.me/{owner_username}"),
-            InlineKeyboardButton('Bot Lists 🤖', url=f"https://t.me/iZaute/8"),
-            InlineKeyboardButton('GitHup 🤣', url=f"https://githup.com/ZauteKm")
+            InlineKeyboardButton('👤 Any Doubt', url=f"https://t.me/BXSupport"),
+            InlineKeyboardButton('💡 Github', url=f"https://githup.com/BXBotz")
             ],[
-            InlineKeyboardButton('⚜️ Subscribe Now YouTube ⚜️', url=f"https://youtube.com/c/ZauteKm")
+            InlineKeyboardButton('⚜️ YouTube Channel ⚜️', url=f"https://youtube.com/c/bxbotz")
         ]
     ]
     await m.reply_text(
